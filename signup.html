@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Icon.png" sizes="16x16 32x32" type="image/png">
+    <title>Bootstrap form Activity</title>
+</head>
+<body>
+
+    <div class="container2">
+        <div class="signup-top">
+        <h1 class="text-center" id="signup1"><b>Sign Up</b></h1><hr><br>
+        </div>
+        <form class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col form-floating fs-6">
+                    <input type="text" class="form-control" id="fs1" placeholder="First Name" required>
+                    <label for="email" class="form-label">First Name</label>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your First Name</div> 
+                </div>
+    
+                <div class="col form-floating fs-6">
+                    <input type="text" class="form-control" id="ls1" placeholder="Last Name" required>
+                    <label for="email" class="form-label">Last Name</label>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your Last Name</div> 
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col form-floating fs-6">
+                    <input type="email" class="form-control" id="email" placeholder="Enter eMail" required>
+                    <label for="email" class="form-label">eMail</label>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your email address</div> 
+                </div>
+                <div class="col form-floating fs-6">
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter Password" required>
+                    <label for="email" class="form-label">Password</label>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your password</div> 
+    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h6>Gender</h6>
+                    <select class="form-select" id="gensel1" name="gensellist1" required>
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your Gender</div> 
+                </div>
+                <div class="col">
+                    <h6>Status</h6>
+                    <select class="form-select" id="statsel1" name="statsellist1" required>
+                        <option></option>
+                        <option>Single</option>
+                        <option>Married</option>
+                    </select>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your Civil Status</div> 
+                </div>
+                <div class="col">
+                    <h6>Nationality</h6>
+                    <select class="form-select" id="natsel1" name="natsellist1" required>
+                        <option></option>
+                        <option>Afghan</option>
+                        <option>Albanian</option>
+                        <option>American</option>
+                        <option>Andorran</option>
+                        <option>Angolan</option>
+                        <option>Anguillan</option>
+                        <option>Citizen of Antigua and Barbuda</option>
+                        <option>Argentine</option>
+                        <option>Armenian</option>
+                        <option>Australian</option>
+                        <option>Austrian</option>
+                        <option>Azerbaijani</option>
+                        <option>Bahamian</option>
+                        <option>Bahraini</option>
+                        <option>Bangladeshi</option>
+                        <option>Belarusian</option>
+                        <option>Barbadian</option>
+                        <option>Belgian</option>
+                        <option>Belizean</option>
+                        <option>Beninese</option>
+                        <option>Bermudian</option>
+                        <option>Bhutanese</option>
+                        <option>Bolivian</option>
+                        <option>Citizen of Bosnia and Herzegovina</option>
+                        <option>Botswanan</option>
+                        <option>Brazilian</option>
+                        <option>British</option>
+                        <option>British Virgin Islander</option>
+                        <option>Bruneian</option>
+                        <option>Bulgarian</option>
+                        <option>Burkinan</option>
+                        <option>Burmese</option>
+                        <option>Burundian</option>
+                        <option>Cambodian</option>
+                        <option>Cameroonian</option>
+                        <option>Canadian</option>
+                        <option>Cape Verdean</option>
+                        <option>Cayman Islander	</option>
+                        <option>Central African</option>
+                        <option>Chadian</option>
+                        <option>Chilean</option>
+                        <option>Chinese</option>
+                        <option>Colombian</option>
+                        <option>Comoran</option>
+                        <option>Congolese (Congo)</option>
+                        <option>Congolese (DRC)</option>
+                        <option>Cook Islander</option>
+                        <option>Costa Rican</option>
+                        <option>Croatian</option>
+                        <option>Cuban</option>
+                        <option>Cymraes</option>
+                        <option>Cymro</option>
+                        <option>Cypriot</option>
+                        <option>Czech</option>
+                    </select>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your Nationality</div> 
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h6>Birthday</h6>
+                    <input type="date" class="form-control" id="bday" name="bdayselect" required>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col form-floating fs-6">
+                    <input type="text" class="form-control" id="comadd" name="complete address" placeholder="Address" required>
+                    <label for="email" class="form-label">Address</label>
+                    <div class="valid-feedback"> Valid </div>
+                    <div class="invalid-feedback">Please enter your Complete Address</div> 
+                </div>
+            </div>
+            <div class="col form-check" id="rememberme">
+                <input type="checkbox" class="form-check-input" id="check" required>
+                <label for="check" class="form-check-label fs-6">Please Accept<a href="#"> Terms</a> and <a href="#">Conditions</a></label>
+                <div class="valid-feedback"> Valid </div>
+                <div class="invalid-feedback">Please Check the checkbox</div> 
+            </div>
+            <br>
+            <div class="terms">
+                <input type="submit" class="btn btn-primary w-100" Value="SIGN IN" id="signupsubmit">
+                
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
+</script>
+
+</html>
